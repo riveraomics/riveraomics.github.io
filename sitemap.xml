@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://riveraomics.github.io/index.html</loc>
-	</url>
-	<url>
 		<loc>https://riveraomics.github.io/team/index.html</loc>
 	</url>
 	<url>
@@ -14,8 +11,5 @@
 	</url>
 	<url>
 		<loc>https://riveraomics.github.io/protocols/index.html</loc>
-	</url>
-	<url>
-		<loc>https://riveraomics.github.io/mailto/index.html</loc>
 	</url>
 </urlset>
