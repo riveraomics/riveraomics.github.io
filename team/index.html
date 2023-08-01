@@ -26,7 +26,7 @@
 	<meta property="og:url" content="https://riveraomics.github.io/team/index.html">
 	
 	<title>TEAM | Rivera Omics Group</title>
-	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Engineer/consolidated-2.css?rwcache=712553689" />
+	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Engineer/consolidated-2.css?rwcache=712606141" />
 		
 	  <style type="text/css" media="all">.hero,
 .hero-content {
@@ -34,8 +34,7 @@
 	}
 .hero-background {
 	height: 17vh;
-	}
-</style>  
+	}</style>  
 </head>
 
 <!-- This page was created with RapidWeaver from Realmac Software. http://www.realmacsoftware.com -->
@@ -76,7 +75,23 @@ We are beginning operations at the <a href=https://uagm.edu/es/recinto-de-cupey 
 
 <hr />
 
-<p><img src="../resources/osvaldo_avatars.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+<style>
+  img {
+    width: 80%; /* Set the image to fill its container */
+    max-width: 444px; /* Set a maximum width for the image to avoid it getting too large on larger screens */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  /* Apply styles for mobile screens */
+  @media screen and (max-width: 767px) {
+    img {
+      max-width: 100%; /* Allow the image to take the full width of the viewport on mobile */
+    }
+  }
+</style>
+
+<p><img src="../resources/osvaldo_avatars.png" alt="Osvaldo Avatars">
 <div style='text-align: center;'>
  <span style="font-weight: bold;">Osvaldo D. Rivera, PhD </span> <br>
  Principal Investigator <br>
@@ -146,9 +161,56 @@ We are beginning operations at the <a href=https://uagm.edu/es/recinto-de-cupey 
 
 <hr />
 
-<h3 id="soontoberecruitingresearchassistant">Soon to be Recruiting Research Assistant</h3>
+<h3 id="collaborators">Collaborators</h3>
 
-<h4 id="sendyourresumeorcvtothepitogetaheadstart">Send your Resume or CV to the PI to get a head start!</h4>
+<style>
+  /* Parent container with flexbox to center the child container */
+  .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Your container with content */
+  .collab_container {
+    column-count: 2;
+    column-gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Apply styles for mobile screens */
+  @media screen and (max-width: 767px) {
+    .collab_container {
+      column-count: 1; /* Switch to one column on mobile */
+      column-gap: 0; /* Remove column gap for single column */
+    }
+  }
+</style>
+
+<p><br>
+<div class="parent-container">
+ <div class="collab_container">
+ <p> <span style="font-weight: bold;">
+ Dra. Breatriz Zayas-Rivera <br> </span>
+ Profesor and Director of ChEMTox <br>
+ Universidad Ana G. Méndez, Cupey </p>
+ <p> <span style="font-weight: bold;">
+ Dra. Diana Gomez-Garzon <br> </span>
+ Professor of Cell Biology and Biochemistry <br>
+ Universidad Ana G. Méndez, Cupey </p>
+ <p> <span style="font-weight: bold;">
+ Dr. Yoseph Barash <br> </span>
+ Associate Professor of Genetics and CIS <br>
+ University of Pennsylvania </p>
+ <p> <span style="font-weight: bold;">
+ Dra. Kristen W. Lynch <br> </span>
+ Chair, Professor of Biochemistry <br>
+ University of Pennsylvania </p>
+ </div>
+</div></p>
                     </div>
 
                     <div class="col-sm-12 sidebar">
@@ -171,7 +233,7 @@ We are beginning operations at the <a href=https://uagm.edu/es/recinto-de-cupey 
 		</div>
 	</footer>
 
-	<script type="text/javascript" src="../rw_common/themes/Engineer/js/main.js?rwcache=712553689"></script>
+	<script type="text/javascript" src="../rw_common/themes/Engineer/js/main.js?rwcache=712606141"></script>
 </body>
 
 </html>
