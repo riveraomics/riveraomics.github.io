@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+<title>From Lab to Market</title><link>https://riveraomics.github.io/index.html</link><description>Bridging  Science and Bussiness</description><dc:language>en</dc:language><language>en</language><dc:creator>Osvaldo D. Rivera</dc:creator><dc:date>2023-11-07T09:14:53-04:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+<lastBuildDate>Tue, 7 Nov 2023 09:14:47 -0400</lastBuildDate><item><title>Conversation with Senior MSL @ Caris</title><dc:creator>Osvaldo D. Rivera</dc:creator><category>Emmanuel Franceschini-Rosado</category><dc:date>2023-11-07T09:14:53-04:00</dc:date><link>https://riveraomics.github.io/blog/files/7dc93067cc0561fa8f2a5db247368fb7-0.html#unique-entry-id-0</link><guid isPermaLink="true">https://riveraomics.github.io/blog/files/7dc93067cc0561fa8f2a5db247368fb7-0.html#unique-entry-id-0</guid><content:encoded><![CDATA[Being able to attend Dr. Negr&oacute;n&rsquo;s seminar was a very pleasant experience full of knowledge and experience in the different fields one can explore in science. From the pharmaceutical industry, to manufacturing, to working in a prestigious laboratory and exploring the world of a Medical Science Liaison (MSL) at Caris Life Science. Dr. Negr&oacute;n was able to convey a thorough perspective of the different careers one can choose in the field of science. ]]></content:encoded></item></channel>
+</rss>
