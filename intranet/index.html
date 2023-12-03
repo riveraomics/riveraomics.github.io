@@ -25,7 +25,7 @@
 	<meta property="og:url" content="https://riveraomics.github.io/intranet/index.html">
 	
 	<title>Intranet | OMICS</title>
-	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Engineer/consolidated-8.css?rwcache=722927939" />
+	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Engineer/consolidated-8.css?rwcache=723257782" />
 		
 	  <style type="text/css" media="all">.hero,
 .hero-content {
@@ -35,6 +35,78 @@
 	height: 22vh;
 	}
 	
+/* Basic styling */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.zoom-button {
+  display: inline-block;
+  width: 100%;
+  height: 222px;
+  margin: 22px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Gradient overlay */
+  color: #FFFFFF;
+  opacity: 0;
+  transition: opacity 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-text {
+  font-size: 24px;
+  color: #fff;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.3s, opacity 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.button-text-df {
+  font-size: 33px;
+  background-color: rgba(0, 0, 0, 0.7); /* 50% black alpha */
+    padding: 10px;
+  color: #fff;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.3s, opacity 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+/* Zoom effect on hover */
+.zoom-button:hover {
+  transform: scale(1.1);
+}
+
+.zoom-button:hover .overlay {
+  opacity: 1;
+}
+
+.zoom-button:hover .button-text {
+  transform: scale(1.2); /* Scale text on hover */
+}
+
 </style>  
 </head>
 
@@ -73,50 +145,54 @@
 
 <hr />
 
-<h3 id="in-houseserver">In-House Server</h3>
+<div class="button-container">
+<a href="/activities" class="zoom-button" style="background-image: url('../resources/CCC-UPR-10X-SYMP.jpg');">
+<h2 class="button-text-df">Activities</h2>
+<div class="overlay">
+<h2 class="button-text">Register & Attend</span>
+</div> </a> </div>
 
-<p>(soon) Access our Linux Server with pre-built pipelines.</p>
+<p><strong>Activities Page for Updates</strong>: A hub for all the current and upcoming events, seminars, and networking sessions.
+Affiliates are encouraged to stay updated with this page to participate in these events.
+It offers a comprehensive activities calendar, ensuring easy access to event details and schedules.</p>
 
-<hr />
+<p><hr></p>
 
-<h3 id="boquerónhpc">Boquerón HPC</h3>
+<div class="button-container">
+<a href="https://github.com/riverainitiatives/library/blob/main/library_markdown.md" class="zoom-button" style="background-image: url('../resources/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg');">
+<h2 class="button-text-df">Library</h2>
+<div class="overlay">
+<h2 class="button-text">Access</span>
+</div> </a></div>
 
-<p>(soon) Access High-performance computational resources of the Boquerón Server lead by UPR network.</p>
+<p><strong>Coursework Library for Technical Enhancement</strong>: Tailored coursework specifically designed to enhance technical capabilities.
+This library aims to elevate the skills and knowledge of affiliates in various areas.
+It could include diverse resources such as tutorials, online courses, workshops, or training materials.</p>
 
-<hr />
+<p><hr></p>
 
-<h3 id="seminarsandnetworkingevents">Seminars and Networking Events</h3>
+<div class="button-container">
+<a href="#" class="zoom-button" style="background-image: url('../resources/markus-spiske-hvSr_CVecVI-unsplash.jpg');">
+<h2 class="button-text-df">Fileserver*</h2>
+<div class="overlay">
+<h2 class="button-text">Login</h2>
+</div> </a> </div>
 
-<p>Access our <a href="/activities">Activities page</a> to schedule an event. View full activities calendar <a href="https://airtable.com/apppiHoSbcWtQgD9l/shrrxG7LTnO4GnnQ3" target="_blank"> here </a> &amp; download calendar <a href="https://airtable.com/apppiHoSbcWtQgD9l/shrrxG7LTnO4GnnQ3/iCal?timeZone=America%2FPuerto_Rico&userLocale=en" target="_blank"> here</a>.</p>
+<p>(Coming soon) <strong>Access to In-House Linux Server</strong>: Affiliates will soon gain access to a dedicated in-house Linux server.
+This server hosts pre-built pipelines optimized for smooth execution of bioinformatics workflows.
+The aim is to provide a seamless environment for running bioinformatics analyses and processing data efficiently.</p>
 
-<hr />
+<p><hr></p>
 
-<h3 id="booklibrary">Book Library</h3>
+<div class="button-container">
+<a href="https://www.hpcf.upr.edu/" class="zoom-button" style="background-image: url('https://images.unsplash.com/photo-1606765962248-7ff407b51667?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMzI0OXwwfDF8c2VhcmNofDIyfHxzZXJ2ZXJ8ZW58MHx8fHwxNzAxNTU2OTQzfDA&ixlib=rb-4.0.3&q=80&w=1080');">
+<h2 class="button-text-df">Boquerón HPC</h2>
+<div class="overlay">
+<h2 class="button-text">More info</span>
+</div></a></div>
 
-<div>
-<ul>
-<li> <a href="https://agmsu-my.sharepoint.com/:b:/g/personal/riverao2_uagm_edu/EeaOhkMjeHFAr9JpJxlv-hkBa2wGq9GvTO334zitZLPChg?e=pFWxLR" target="_blank"> 
-    Laboratory Practices in Molecular Cell Biology (MANUSCRIPT PRE-PUBLISHED EDITION)</a>. Osvaldo D. Rivera. Rivera Omics Group, August 2023.
-    <a href="">Chapters 1 - 2</a> </li>
-    <br> 
-    <li> <a href=https://agmsu-my.sharepoint.com/:b:/g/personal/riverao2_uagm_edu/EYn4fHk_zAREmAZvOVjgvy4BGybBkSh_EVeQEdTfKW5XxQ?e=YdMUfy" target="_blank"> 
-    Campbell Biology (12th Edition)</a>. Lisa A. Urry, Michael L. Cain, Steven A. Wasserman, Peter V. Minorsky, Rebecca Orr.  Pearson, July 2021. ISBN:  9780135988046 (ebook) <br> 
-    <a href=https://www.pearson.com/en-us/subject-catalog/p/campbell-biology/P200000007019 target="_blank">BUY BOOK</a> </li> <br> 
-    <li> <a href=https://agmsu-my.sharepoint.com/:b:/g/personal/riverao2_uagm_edu/EemOS_mcIsVGofKsp0rc4m0BV9ueff0gCJ8mypSjx7Jxkw?e=Is1AIL" target="_blank"> 
-    Karp’s Cell and Molecular Biology Concepts and Experiments (8th Edition)</a>. Gerald Karp, Janet Iwasa, Wallace Marshall. Wiley, August 2019.  ISBN: 978-1-118-88614-4 <br> 
-    <a href=https://www.wiley.com/en-us/Karp%27s+Cell+and+Molecular+Biology%3A+Concepts+and+Experiments%2C+8th+Edition-p-9781119227656 target="_blank">BUY BOOK</a> </li> <br> 
-
-    <li> <a href="https://agmsu-my.sharepoint.com/:b:/g/personal/riverao2_uagm_edu/EejK0qPm9dlHrEEYS4ww3OkB3fD8HGU4NKj3_Gvj70Eolw" target="_blank"> 
-    How the Imune System Works (6th Edition) </a>. Lauren Sompayrac. Wiley-Blackwell, February 2019. ISBN: 978-1-119-54220-9  <br>  <a href="https://www.wiley.com/en-us/How+the+Immune+System+Works,+6th+Edition-p-9781119542209">BUY BOOK</a> </li>
-    <br> 
-    
-    <li> <a href="https://agmsu-my.sharepoint.com/:b:/g/personal/riverao2_uagm_edu/EeLadGcKe19BmFJhnFiKfBoBddpIBicm7IiuelHZH0-kVA" target="_blank"> 
-    Roitt's Essential Immunology (13th Edition) </a>. Peter J. Delves, Seamus J. Martin, Dennis R. Burton, Ivan M. Roitt. Wiley-Blackwell, January 2017. ISBN: 978-1-118-41577-1  <br>  <a href="https://www.wiley.com/en-us/Roitt%27s+Essential+Immunology%2C+13th+Edition-p-9781118415771">BUY BOOK</a> </li>
-    <br> 
-    
-</div>
-
-<hr />
+<p><strong>Boquerón - High-Performance Computing (HPC)</strong>: Affiliates can request access to the the Boquerón HPC, which offers high-performance computational capabilities. These capabilities are integrated into the UPR network, ensuring robust and powerful computational resources.
+It provides a platform for executing complex computational tasks or data-intensive analyses.</p>
                     </div>
 
                     <div class="col-sm-12 sidebar">
@@ -132,14 +208,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 footer-content">
-					<ul class="navbar-nav ml-auto"><li class="nav-item has-dropdown"><a href="../team/" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown">Team</a></li><li class="nav-item"><a href="../projects/" rel="" class="nav-link">Research</a></li><li class="nav-item"><a href="../publications/" rel="" class="nav-link">Publications</a></li><li class="nav-item has-dropdown"><a href="../protocols/" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown">Protocols</a></li><li class="nav-item"><a href="https://github.com/riveraomics" target="_blank" class="nav-link">Github</a></li><li class="nav-item has-dropdown active"><a href="./" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown" >Intranet</a></li><li class="nav-item"><a href="../blog/" rel="" class="nav-link">Blog</a></li></ul>
+					<ul class="navbar-nav ml-auto"><li class="nav-item has-dropdown"><a href="../team/" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown">Team</a></li><li class="nav-item"><a href="../projects/" rel="" class="nav-link">Research</a></li><li class="nav-item"><a href="../publications/" rel="" class="nav-link">Publications</a></li><li class="nav-item has-dropdown"><a href="../protocols/" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown">Protocols</a></li><li class="nav-item"><a href="https://github.com/riveraomics" target="_blank" class="nav-link">Github</a></li><li class="nav-item active"><a href="./" rel="" class="nav-link">Intranet</a></li><li class="nav-item"><a href="../blog/" rel="" class="nav-link">Blog</a></li></ul>
 					2023 &copy; OMICS <br> <span style="font-size: 14px; color: white;">a branch of <a href="https://riverainc.org" target="_blank" style="color: white; text-decoration: underline;">RIVERA Initiatives Inc.</a></span><br><a href="https://riverainc.org" target="_blank"><img src="../resources/rivera_logo_wt.png" class="responsive-footer-image" alt="RIVERA inc"></a><br> <span span style="font-size: 14px;">Website designed by <a href=https://ozcorp.io target="_blank"> Ozcorp Scientific </a> </span>
 				</div>
 			</div>
 		</div>
 	</footer>
 
-	<script type="text/javascript" src="../rw_common/themes/Engineer/js/main.js?rwcache=722927939"></script>
+	<script type="text/javascript" src="../rw_common/themes/Engineer/js/main.js?rwcache=723257782"></script>
 </body>
 
 </html>
