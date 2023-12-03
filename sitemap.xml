@@ -16,12 +16,15 @@
 		<loc>https://riveraomics.github.io/intranet/index.html</loc>
 	</url>
 	<url>
-		<loc>https://riveraomics.github.io/activities/student-presentation-calendar/index.html</loc>
+		<loc>https://riveraomics.github.io/intranet/activities/student-presentation-calendar/index.html</loc>
 	</url>
 	<url>
-		<loc>https://riveraomics.github.io/activities/biomedical-presentation-in-person/index.html</loc>
+		<loc>https://riveraomics.github.io/intranet/activities/biomedical-presentation-in-person/index.html</loc>
 	</url>
 	<url>
 		<loc>https://riveraomics.github.io/blog/index.html</loc>
+	</url>
+	<url>
+		<loc>https://riveraomics.github.io/blog/files/archive-2023.html</loc>
 	</url>
 </urlset>
