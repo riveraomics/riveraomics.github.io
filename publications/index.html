@@ -25,7 +25,7 @@
 	<meta property="og:url" content="https://riveraomics.github.io/publications/index.html">
 	
 	<title>Publications | OMICS</title>
-	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Engineer/consolidated-1.css?rwcache=723278867" />
+	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Engineer/consolidated-1.css?rwcache=723340386" />
 		
 	  <style type="text/css" media="all">.hero,
 .hero-content {
@@ -35,7 +35,27 @@
 	height: 22vh;
 	}
 	
-</style>  
+.navbar .navbar-nav > .nav-item:after {
+    -webkit-transition: .2s;
+    transition: .2s;
+    content: "";
+    display: block;
+    -webkit-transform: skew(0deg) translateY(-3%); /* Changed translateY to 0 */
+    transform: skew(0deg) translateY(-3%); /* Changed translateY to 0 */
+    position: absolute;
+    height: 0;
+    top: 11px;
+    bottom: 11px;
+    left: -3px;
+    right: -2px;
+    z-index: 0;
+    border-radius: 1px;
+}
+
+@media (min-width: 991px) { .nav-item.has-dropdown .dropdown-menu {
+    background-color: black !important;
+    border: 1px solid white !important;
+}</style>  
 </head>
 
 <!-- This page was created with RapidWeaver from Realmac Software. http://www.realmacsoftware.com -->
@@ -49,7 +69,7 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto"><li class="nav-item"><a href="../team/" rel="" class="nav-link">Team</a></li><li class="nav-item"><a href="../projects/" rel="" class="nav-link">Research</a></li><li class="nav-item active"><a href="./" rel="" class="nav-link">Publications</a></li><li class="nav-item"><a href="../protocols/" rel="" class="nav-link">Protocols</a></li><li class="nav-item"><a href="https://github.com/riveraomics" target="_blank" class="nav-link">Github</a></li><li class="nav-item"><a href="../intranet/" rel="" class="nav-link">Intranet</a></li><li class="nav-item"><a href="../blog/" rel="" class="nav-link">Blog</a></li></ul>
+				<ul class="navbar-nav ml-auto"><li class="nav-item"><a href="../team/" rel="" class="nav-link">Team</a></li><li class="nav-item"><a href="../projects/" rel="" class="nav-link">Research</a></li><li class="nav-item active"><a href="./" rel="" class="nav-link">Publications</a></li><li class="nav-item"><a href="../protocols/" rel="" class="nav-link">Protocols</a></li><li class="nav-item"><a href="https://github.com/riveraomics" target="_blank" class="nav-link">Github</a></li><li class="nav-item has-dropdown"><a href="../intranet/" rel="" class="nav-link dropdown-toggle" data-toggle="dropdown">Intranet</a><ul class="navbar-nav ml-auto"><li class="nav-item"><a href="../intranet/activities/" rel="" class="nav-link">Activities</a></li><li class="nav-item"><a href="" rel="" class="nav-link">Library</a></li><li class="nav-item"><a href="" rel="" class="nav-link">Fileserver</a></li><li class="nav-item"><a href="" rel="" class="nav-link">Appserver</a></li><li class="nav-item"><a href="" rel="" class="nav-link">HPC</a></li></ul></li><li class="nav-item"><a href="../blog/" rel="" class="nav-link">Blog</a></li></ul>
 			</div>
 		</nav>
 
@@ -142,7 +162,7 @@ A copy of pay-walled papers may be requested via e-mail from the corresponding a
 		</div>
 	</footer>
 
-	<script type="text/javascript" src="../rw_common/themes/Engineer/js/main.js?rwcache=723278867"></script>
+	<script type="text/javascript" src="../rw_common/themes/Engineer/js/main.js?rwcache=723340386"></script>
 </body>
 
 </html>
