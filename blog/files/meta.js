@@ -56,7 +56,7 @@
 	};
  
 	// Object containing all website meta info
-	var websiteMeta = {"archive-2023.html":"Archives for 2023","7dc93067cc0561fa8f2a5db247368fb7-0.html":"Being able to attend Dr. Negrón’s seminar was a very pleasant experience full of knowledge and experience in the different fields one can explore in s","category-emmanuel-franceschini-rosado.html":"A list of posts in category &ldquo;Emmanuel Franceschini-Rosado&rdquo;"};
+	var websiteMeta = {"breaking-boundaries-biomedical-research-puerto-rico-with-10x-genomics.html":"10X Genomics has recently been noticeably active in Puerto Rico, hosting two distinct activities in the San Juan metropolitan area; a genomics worksho","category-paola-n.-aponte-castro.html":"A list of posts in category &ldquo;Paola N. Aponte-Castro&rdquo;","archive-2023.html":"Archives for 2023","category-emmanuel-franceschini-rosado.html":"A list of posts in category &ldquo;Emmanuel Franceschini-Rosado&rdquo;","category-osvaldo-d.-rivera-gonz00e1lez.html":"A list of posts in category &ldquo;Osvaldo D. Rivera-Gonz&aacute;lez&rdquo;","conversation-with-senior-medical-science-liason-caris.html":"Being able to attend Dr. Negrón’s seminar was a very pleasant experience full of knowledge and experience in the different fields one can explore in s"};
  
 	// pageId must match the key in websiteMeta object
 	var url = window.location.pathname;
