@@ -29,7 +29,7 @@
 	
 
 	<title>Conversation with Senior MSL @ Caris | Blog | OMICS</title>
-	<link rel="stylesheet" type="text/css" media="all" href="../../rw_common/themes/Future/consolidated-29.css?rwcache=725138666" />
+	<link rel="stylesheet" type="text/css" media="all" href="../../rw_common/themes/Future/consolidated-29.css?rwcache=725139151" />
 		
 	
 	 <style type="text/css" media="all">.hero,
@@ -185,7 +185,31 @@ span[style*="MS PGothic"] , span[style*=monospace] {
 
 
 
-</style>  <link rel="alternate" type="application/rss+xml" title="Lab to Market" href="https://riveraomics.github.io/blog/files/feed.xml" />
+</style> <script>
+			 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+
+<script>
+  // Function to fetch Markdown content from GitHub
+  function fetchMarkdownFromGitHub() {
+    const githubMarkdownURL = 'https://raw.githubusercontent.com/riverainitiatives/library/main/library_markdown.md'; // Replace with your GitHub URL
+    fetch(githubMarkdownURL)
+      .then(response => response.text())
+      .then(markdownContent => {
+        const converter = new showdown.Converter();
+        const htmlContent = converter.makeHtml(markdownContent);
+
+        // Update the Moodle Wiki page with HTML content
+        document.getElementById('wiki-content').innerHTML = htmlContent;
+      })
+      .catch(error => {
+        console.error('Error fetching Markdown:', error);
+      });
+  }
+
+  // Call the function to fetch and display the Markdown content
+  fetchMarkdownFromGitHub();
+</script> 
+		</script> <link rel="alternate" type="application/rss+xml" title="Lab to Market" href="https://riveraomics.github.io/blog/files/feed.xml" />
 <script type="text/javascript" async src="https://riveraomics.github.io/blog/files/meta.js"></script>
 
 </head>
@@ -247,7 +271,7 @@ span[style*="MS PGothic"] , span[style*=monospace] {
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="../../rw_common/themes/Future/js/main.js?rwcache=725138666"></script>
+	<script type="text/javascript" src="../../rw_common/themes/Future/js/main.js?rwcache=725139151"></script>
 </body>
 
 </html>
