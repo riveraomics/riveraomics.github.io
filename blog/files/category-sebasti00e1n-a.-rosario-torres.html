@@ -27,7 +27,7 @@
 	
 
 	<title>Sebastián A. Rosario-Torres | Blog | a branch of RIVERA Initiatives Inc.</title>
-	<link rel="stylesheet" type="text/css" media="all" href="../../rw_common/themes/Future/consolidated-29.css?rwcache=737562363" />
+	<link rel="stylesheet" type="text/css" media="all" href="../../rw_common/themes/Future/consolidated-29.css?rwcache=738764766" />
 		
 	
 	 <style type="text/css" media="all">.hero,
@@ -116,6 +116,7 @@ span[style*="MS PGothic"] , span[style*=monospace] {
   background-position: left;
   }
 
+
 .overlay {
   position: absolute;
   top: 0;
@@ -182,8 +183,122 @@ span[style*="MS PGothic"] , span[style*=monospace] {
 }
 
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-</style> <script>
+#scheduleButton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#scheduleButton:hover {
+  background-color: red;
+  color: #F6CA83;
+  border-color: #F6CA83;
+}
+
+
+
+.pillar-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.pillar-zoom-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.pillar-zoom-button h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.pillar-zoom-button p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.pillar-zoom-button:hover {
+    transform: scale(1.1);
+}
+
+/* Media query for tablets and larger screens */
+@media (min-width: 768px) {
+    .pillar-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+    .highlight-rivera {
+        background-color: #e9ecef;
+        padding: 33px; 
+        border-left: 5px solid red;
+    }
+    
+    
+        .achievements-rivera {
+        list-style: none;
+        padding: 0;
+        font-size: 1.1em;
+    }
+    .achievements-rivera li {
+        background: black;
+        color: #fff;
+        margin-bottom: 17x;
+        padding: 15px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .achievements-rivera li::before {
+        content: "✔";
+        margin-right: 22px;
+        margin-left: 14px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2em;}
+.student-achievements li::before {
+    content: "⭐";
+}
+
+.org-achievements li::before {
+    content: "🏛";
+}
+
+.zoom-link {
+    transition: transform 0.2s;
+}
+
+.zoom-link:hover {
+    transform: scale(1.05);
+    background: #851228;
+}
+.student-achievements li.zoom-link:hover::before {
+    content: "🎓";
+}</style> <script>
 			 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
 
 <script>
@@ -256,7 +371,7 @@ span[style*="MS PGothic"] , span[style*=monospace] {
 
                     <div class="col-sm-12 sidebar">
                         <h2></h2>
-                         <div id="blog-categories"><a href="category-osvaldo-d.-rivera-gonz00e1lez.html" class="blog-category-link-enabled">Osvaldo D. Rivera-González (4)</a><br /><a href="category-paola-n.-aponte-castro.html" class="blog-category-link-enabled">Paola N. Aponte-Castro (2)</a><br /><a href="category-sebasti00e1n-a.-rosario-torres.html" class="blog-category-link-enabled">Sebastián A. Rosario-Torres (1)</a><br /><a href="category-ver00f3nica-defill00f3-martinez.html" class="blog-category-link-enabled">Verónica Defilló-Martinez (1)</a><br /><a href="category-emmanuel-franceschini-rosado.html" class="blog-category-link-enabled">Emmanuel Franceschini-Rosado (1)</a><br /><a href="category-damian-e.-santiago-mu00f1oz.html" class="blog-category-link-enabled">Damian E. Santiago-Muñoz (1)</a><br /></div><div id="blog-archives"><a class="blog-archive-link-enabled" href="archive-2024.html">2024</a><br /><a class="blog-archive-link-enabled" href="archive-2023.html">2023</a><br /></div><div id="blog-rss-feeds"><a class="blog-rss-link" href="feed.xml" rel="alternate" type="application/rss+xml" title="Lab to Market">Lab to Market</a><br /></div>
+                         <div id="blog-categories"><a href="category-osvaldo-d.-rivera-gonz00e1lez.html" class="blog-category-link-enabled">Osvaldo D. Rivera-González (5)</a><br /><a href="category-paola-n.-aponte-castro.html" class="blog-category-link-enabled">Paola N. Aponte-Castro (2)</a><br /><a href="category-sebasti00e1n-a.-rosario-torres.html" class="blog-category-link-enabled">Sebastián A. Rosario-Torres (1)</a><br /><a href="category-ver00f3nica-defill00f3-martinez.html" class="blog-category-link-enabled">Verónica Defilló-Martinez (1)</a><br /><a href="category-emmanuel-franceschini-rosado.html" class="blog-category-link-enabled">Emmanuel Franceschini-Rosado (1)</a><br /><a href="category-damian-e.-santiago-mu00f1oz.html" class="blog-category-link-enabled">Damian E. Santiago-Muñoz (1)</a><br /></div><div id="blog-archives"><a class="blog-archive-link-enabled" href="archive-2024.html">2024</a><br /><a class="blog-archive-link-enabled" href="archive-2023.html">2023</a><br /></div><div id="blog-rss-feeds"><a class="blog-rss-link" href="feed.xml" rel="alternate" type="application/rss+xml" title="Lab to Market">Lab to Market</a><br /></div>
                     </div>
                 </div>
 			</div>
@@ -273,7 +388,7 @@ span[style*="MS PGothic"] , span[style*=monospace] {
 			</div>
 		</div>
 	</div>
-	<script type="text/javascript" src="../../rw_common/themes/Future/js/main.js?rwcache=737562363"></script>
+	<script type="text/javascript" src="../../rw_common/themes/Future/js/main.js?rwcache=738764766"></script>
 </body>
 
 </html>
