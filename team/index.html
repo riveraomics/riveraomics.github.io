@@ -25,7 +25,7 @@
 	<meta property="og:url" content="https://riveraomics.github.io/team/index.html">
 	
 	<title>Team | a branch of RIVERA Initiatives Inc.</title>
-	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Engineer/consolidated-2.css?rwcache=738765179" />
+	<link rel="stylesheet" type="text/css" media="all" href="../rw_common/themes/Engineer/consolidated-2.css?rwcache=746031846" />
 		
 	  <style type="text/css" media="all">.hero,
 .hero-content {
@@ -94,6 +94,29 @@
     border: 1px solid white !important;
 }}
 
+        .prlsamp-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+.prlsamp-image {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .prlsamp-image:hover {
+            transform: scale(1.1);
+        }
+
+        /* Click effect: slightly rotate and shrink the image */
+        .prlsamp-image:active {
+            transform: rotate(-5deg) scale(0.95);
+        }
+
+
+
 
 .header-slider {
 	position: relative;
@@ -123,7 +146,8 @@
             background-color: rgba(0, 0, 0, 0.5);
             color: white;
             padding: 10px;
-            cursor: pointer;</style> <script>
+            cursor: pointer;
+   </style> <script>
 			 const slides = document.querySelector('.slides');
         const prev = document.querySelector('.prev');
         const next = document.querySelector('.next');
@@ -244,22 +268,6 @@
 
 <div class="column-container">
   <div class="column">
-    <img src="../resources/damian_full.png" class="column">
-    <div>
-    <span style="font-weight: bold;">Damian E. Santiago </span><a href="https://www.linkedin.com/in/damian-santiago-4b8bb22aa/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><a href="https://github.com/santiagoDam" target="_blank"><img src="../resources/github-icon.png" alt="Github" class="custom-social-icon-teamspage"></a><br> Undergraduate Researcher<br>Bioinformatics <br><br>
-    </div>
-  </div>
-
-  <div class="column">
-    <img src="../resources/paola_full.png" class="column">
-    <div>
-    <span style="font-weight: bold;">Paola N. Aponte </span><a href="https://www.linkedin.com/in/paola-aponte-0923292a0/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><a href="https://github.com/paolaponte" target="_blank"><img src="../resources/github-icon.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><br> Undergraduate Researcher<br>Biomedicine Commercialization <br><br>
-    </div>
-  </div>
-</div>
-
-<div class="column-container">
-  <div class="column">
   <img src="../resources/seba_ai_pic_pika.png" class="column">
     <div>
     <span style="font-weight: bold;">Sebastián Rosario </span><a href="https://www.linkedin.com/in/sebasti%C3%A1n-a-rosario-torres-0868a8212/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><a href="https://github.com/sebarosarioomics" target="_blank"><img src="../resources/github-icon.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><br> Undergraduate Researcher<br>Cancer Biology<br><br>
@@ -276,16 +284,18 @@
 
 <div class="column-container">
   <div class="column">
-  <img src="../resources/carla_ai_headshot.png" class="column">
-    <div>
-    <span style="font-weight: bold;">Carla N. Cintron</span><br> Undergraduate Researcher<br>Aging Biology<br><br>
-    </div>
-  </div>
-  
-  <div class="column">
-  <a href="https://github.com/katherinejcarrasquillo" target="_blank"><img src="../resources/github-icon.png" class="column" alt="Description of Image" style="width: 81%; height: auto; padding: 10px 20px 30px 40px;opacity: 0.5" onmouseover="this.style.opacity='1';" onmouseout="this.style.opacity='0.5';"></a>
+
+<a href="https://github.com/katherinejcarrasquillo" target="_blank"><img src="../resources/github-icon.png" class="column" alt="Description of Image" style="width: 81%; height: auto; padding: 10px 20px 30px 40px;opacity: 0.5" onmouseover="this.style.opacity='1';" onmouseout="this.style.opacity='0.5';"></a>
     <div>
     <span style="font-weight: bold;">Katherine Carrasquillo</span><br> Undergraduate Researcher<br>Skin Biology<br><br>
+
+    </div>
+  </div>
+
+  <div class="column">
+    <img src="../resources/paola_full.png" class="column">
+    <div>
+    <span style="font-weight: bold;">Paola N. Aponte </span><a href="https://www.linkedin.com/in/paola-aponte-0923292a0/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><a href="https://github.com/paolaponte" target="_blank"><img src="../resources/github-icon.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><br> Undergraduate Researcher<br>Biomedicine Commercialization <br><br>
     </div>
   </div>
 </div>
@@ -294,27 +304,46 @@
 
 <h1 id="alumniexternalcontributors">Alumni &amp; External Contributors</h1>
 
-<p><br>
+<p><br></p>
+
 <div class="column-container">
- <div class="column">
- <img src="../resources/emma_full.png" class="column">
- <div>
- <span style="font-weight: bold;">Emmanuel Franceschini, BS</span></span><a href="https://www.linkedin.com/in/emmanuel-f-6951b2117/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><br> Pharmaceuticals <br><br>
- </div>
- </div></p>
- <div class="column">
- <img src="../resources/ian_full.png" class="column">
- <div>
- <span style="font-weight: bold;">Ian Berrios, BS</span></span><a href="https://www.linkedin.com/in/ian-berrios-11815b2b4/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><br> Biomedicine <br><br>
- </div>
- </div>
+  <div class="column">
+  <img src="../resources/carla_ai_headshot.png" class="column">
+    <div>
+    <span style="font-weight: bold;">Carla N. Cintron</span><br> Undergraduate Researcher<br>Aging Biology<br><br>
+    </div>
+  </div>
+  
+  <div class="column">
+  
+      <img src="../resources/damian_full.png" class="column">
+    <div>
+    <span style="font-weight: bold;">Damian E. Santiago </span><a href="https://www.linkedin.com/in/damian-santiago-4b8bb22aa/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><a href="https://github.com/santiagoDam" target="_blank"><img src="../resources/github-icon.png" alt="Github" class="custom-social-icon-teamspage"></a><br> Undergraduate Researcher<br>Bioinformatics <br><br>
+   </div>
+  </div>
 </div>
 
 <div class="column-container">
   <div class="column">
-    <img src="../resources/Alejandra_ai_headshot.png" class="column">
+    <img src="../resources/emma_full.png" class="column">
     <div>
-    <span style="font-weight: bold;">Alejandra M. Bandelier, BS</span></span><a href="https://www.linkedin.com/in/alejandra-bandelier-marz%C3%A1n-515094265/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><br> Biomedicine <br><br>
+    <span style="font-weight: bold;">Emmanuel Franceschini, BS</span></span><a href="https://www.linkedin.com/in/emmanuel-f-6951b2117/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><br>  Pharmaceuticals <br><br>
+    </div>
+  </div>
+
+  <div class="column">
+    <img src="../resources/Alejandra_ai_headshot.png" class="column">
+    <div>    
+        <span style="font-weight: bold;">Alejandra M. Bandelier, BS</span></span><a href="https://www.linkedin.com/in/alejandra-bandelier-marz%C3%A1n-515094265/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><br> Biomedicine <br><br>
+    </div>
+  </div>
+</div>
+
+<div class="column-container">
+  <div class="column">
+    <img src="../resources/ian_full.png" class="column">
+    <div>
+    <span style="font-weight: bold;">Ian Berrios, BS</span></span><a href="https://www.linkedin.com/in/ian-berrios-11815b2b4/" target="_blank"><img src="../resources/linkedin-button-blk.png" alt="LinkedIn" class="custom-social-icon-teamspage"></a><br> Biomedicine <br><br>
     </div>
    </div>
    
@@ -339,6 +368,12 @@
 <p>The newly established lab is <strong>looking for prospective undergraduate students</strong> to contribute to pilot investigations. The lab aims to decode the intricate molecular landscapes that shape cell biology and disease by leveraging bioinformatics methods and computational algorithms to integrate genomics, transcriptomics, proteomics, and metabolomics data. The lab is also interested in investigating the current landscape of biotechnologies and biomedicines, offering research opportunities in market analysis and communication. <a href="/projects">See the Projects page</a> for more information.</p>
 
 <p><strong>Students interested in pursuing a research opportunity must <a href="mailto:riverao2@uagm.edu">send a one-page letter</a></strong> describing their background in molecular biology and/or computer science, career goals and aspirations, and how RNA biology and bioinformatics fits into your agenda. Students may also opt to send their Resume and/or Curriculum Vitae for evaluation and consideration.</p>
+
+<p>Importantly, RIVERA Initiatives Inc. is mentoring undergraduate students as part of the Puerto Rico Louis Stokes Alliance for Minority Participation (PR-LSAMP) (<a href="https://prlsamp.upr.edu/" target="_blank">https://prlsamp.upr.edu/</a>), a program of the University of Puerto Rico dedicated to STEM talent development.</p>
+
+<div class="prlsamp-container">
+    <img src="../resources/logo.prlsamp.png" alt="Logo" class="prlsamp-image">
+</div>
 
 <hr />
 
@@ -414,7 +449,7 @@
 		</div>
 	</footer>
 
-	<script type="text/javascript" src="../rw_common/themes/Engineer/js/main.js?rwcache=738765179"></script>
+	<script type="text/javascript" src="../rw_common/themes/Engineer/js/main.js?rwcache=746031846"></script>
 </body>
 
 </html>
